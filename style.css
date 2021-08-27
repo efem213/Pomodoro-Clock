@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdcb6e;
+  font-family: 'Rampart One', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transpaernt;
+  color: #2c3e50;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 20px;
+}
+
+.actions-wrapper button {
+  background-color: transpaernt;
+  color: #2c3e50;
+  font-size: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 90px;
+  margin: 30px
+}
+.clock-container h1 {
+  margin: 0;
+}
+.clock-container span {
+  font-size: 60px;
+}
